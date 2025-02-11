@@ -53,10 +53,7 @@ export function AppSidebar({ componentData }) {
     componentData(e.target.innerText);
   };
   return (
-    <Sidebar>
-       <div className="h-[50] w-[100%] bg-[#333] text-white text-center">
-      
-      </div>
+    <Sidebar className="bg-gray-800 ">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Menu</SidebarGroupLabel>
