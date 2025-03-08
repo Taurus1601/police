@@ -22,7 +22,7 @@ export default function Page({ children }) {
         <AppSidebar componentData={handleDataFromChild} />
         <main>
           <SidebarTrigger />
-          <div className="flex flex-col gap-20 flex-jusitfy-center relative top-[25vh] left-[7vw]">
+          <div className="flex flex-col gap-20 flex-jusitfy-center relative top-[25vh] left-[8vw]">
             <Main ></Main>
             <Details></Details>
           </div>
